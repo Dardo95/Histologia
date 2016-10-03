@@ -9,7 +9,7 @@
 
         //echo $usuario_nombre;
         //hago la consulta a la BBDD
-        $resultado_consulta = $mysqli->query("select * from usuarios where DNI = '$usuario_nombre'");
+        $resultado_consulta = $mysqli->query("select * from usuario where DNI = '$usuario_nombre'");
         $numero_dnis = $resultado_consulta->num_rows;
 
         //como solo puede haber como mucho un DNI en este resultado por que el deni es campo clave y no se pudede repetir

@@ -1,6 +1,6 @@
 <?php
 
 $servidor = 'localhost';
-$bd = 'histologia';
+$bd = 'webapp';
 $usuario_mysql = 'root';
 $clave_mysql = 'root';

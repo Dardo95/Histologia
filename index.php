@@ -11,7 +11,7 @@ and open the template in the editor.
         <style>
             body{
                 background: black;
-                background-image:url(img/title1.jpg);
+                background-image:url(http://medintegra.es/wp-content/uploads/2012/09/Medicina-personalizada.jpg);
                 background-size: cover;
             }
         </style>
@@ -20,7 +20,7 @@ and open the template in the editor.
     <body>
         <div class="container" id="centro">
             <div class="row">
-                <div class="col-md-12"><h2 class="text-center" style="color:white;">EJEMPLO INICIO DE SESION EN PHP</h2></div>
+                <div class="col-md-12"><h2 class="text-center" style="color:black;">EJEMPLO INICIO DE SESION EN PHP</h2></div>
             </div>
             <div class="row">
                 <div class="col-md-4"></div>
