@@ -5,9 +5,9 @@ To change this template file, choose Tools | Templates
 and open the template in the editor.
 -->
 
-<title>Prueba de PHP</title>
+<title>Histologia</title>
         <link rel="stylesheet" href="css/bootstrap.min.css">
-        
+        <link rel="stylesheet" href="css/estilo.css">
         <style>
             body{
                 background: black;
@@ -20,9 +20,12 @@ and open the template in the editor.
     <body>
         <div class="container" id="centro">
             <div class="row">
-                <div class="col-md-12"><h2 class="text-center" style="color:black;">EJEMPLO INICIO DE SESION EN PHP</h2></div>
+                <div class="col-md-12"><h2 class="text-center" style="color:black; font-size:40px;
+   -webkit-text-fill-color: blck;
+   -webkit-text-stroke-width: 2px;
+   -webkit-text-stroke-color: black;">Histologia</h2></div>
             </div>
-            <div class="row">
+            <div class="row" id="centro2">
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
                     <!--<form action="index2.php" method="post">-->
@@ -56,4 +59,6 @@ and open the template in the editor.
     }
         
     </script>
+    
+    
 </html>
