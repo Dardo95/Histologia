@@ -28,14 +28,12 @@ and open the template in the editor.
             <div class="row" id="centro2">
                 <div class="col-md-4"></div>
                 <div class="col-md-4">
-                    <!--<form action="index2.php" method="post">-->
                         <br>
                         <input id="usuario_nombre" class="form-control" type="text" placeholder="Usuario">
                         <br>
                         <input id="usuario_clave" class="form-control" type="password" placeholder="Contraseña">
                         <br>
                         <button class="btn btn-success btn-block" onclick="chequeaPass();" type="submit">Entrar</button>
-                    <!--</form>-->
                 </div>
                 <div class="col-md-4"></div>
             </div>
@@ -46,6 +44,7 @@ and open the template in the editor.
     </body>
     <script src="js/jquery-1.12.0.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery-ui.js"></script>
     <script>
     function chequeaPass(){
         var _usuario_nombre = $('#usuario_nombre').val();

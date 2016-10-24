@@ -53,7 +53,7 @@
         <li id="inicio" class="active"><a href="#">Inicio</a></li>
         <li id="contacto"><a href="#">Contacto</a></li>
         <li id="evaluacion"><a href="#">Evaluacion</a></li>
-        <li id="juego1"><a href="#">Juego 1</a></li>
+        <li id="juego1"><a href="#">Cada Oveja</a></li>
         <li id="juego2"><a href="#">Juego 2</a></li>
         <li id="juego3"><a href="#">Juego 3</a></li>
     </ul>
