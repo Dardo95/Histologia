@@ -23,7 +23,6 @@
                    //guardo los datos del usuario que ha hecho login correcto
                   $_SESSION['DNI'] = $DNI;
                   $_SESSION['Nombre'] = $r['Nombre'];
-                  $_SESSION['Email'] = $r['Email'];
                   
                   require 'menu_inicio.php';
               }

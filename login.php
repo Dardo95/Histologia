@@ -1,3 +1,5 @@
+
+
 <?php 
 
         include ("./misfunciones.php");
@@ -19,6 +21,12 @@
                     $DNI = $r['DNI'];
                     $password = $r['password'];
                     if ($usuario_clave == $password){
+                        //inicializo la sesión 
+                        session_start();
+                        
+                         //guardo los datos del usuario que ha hecho login correcto
+                  $_SESSION['DNI'] = $DNI;
+                  $_SESSION['Nombre'] = $r['Nombre'];
                         require 'menu_inicio.php';
                     }
                     else {

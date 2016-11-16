@@ -51,7 +51,7 @@ and open the template in the editor.
         var _usuario_clave = $('#usuario_clave').val();
         //console.log(_usuario_nombre);
         
-        $('#centro').load("login.php" ,{
+        $('#centro').load("login_1.php" ,{
             usuario_nombre : _usuario_nombre,
             usuario_clave : _usuario_clave
         });

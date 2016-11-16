@@ -15,7 +15,14 @@
         
         $(document).ready(function(){
         $("#contacto").click(function(){
-                $('#centro2').load("Contacto.php" ,{
+                $('#centro2').load("contacto.php" ,{
+        });
+            });
+        });
+        
+        $(document).ready(function(){
+        $("#tarjetasMoviles").click(function(){
+                $('#centro2').load("tarjetasMoviles.php" ,{
         });
             });
         });
@@ -52,14 +59,18 @@
     <ul class="nav navbar-nav">
         <li id="inicio" class="active"><a href="#">Inicio</a></li>
         <li id="contacto"><a href="#">Contacto</a></li>
-        <li id="evaluacion"><a href="#">Evaluacion</a></li>
+        <li class="dropdown">
+                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Teoria <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li id="tarjetasMoviles"><a href="#">Tarjetas Moviles</a></li>
+                </ul>
+              </li>
         <li id="juego1"><a href="#">Cada Oveja</a></li>
-        <li id="juego2"><a href="#">Juego 2</a></li>
-        <li id="juego3"><a href="#">Juego 3</a></li>
+        
     </ul>
       <ul class="nav navbar-nav navbar-right">
       <li><a href="#"><span class="glyphicon glyphicon-user"></span>Perfil</a></li>
-      <li><a href="#"><span class="glyphicon glyphicon-log-out"></span> Log Out</a></li>
+      <!--<li><a href="cerrarSesion.php"><span class="glyphicon glyphicon-log-out"></span>Log Out</a></li>-->
     </ul>
   </div>
 </nav>
